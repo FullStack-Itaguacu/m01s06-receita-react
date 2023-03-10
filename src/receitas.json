@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "titulo": "Torta de Banana",
+    "descricao": "Torta de banana com chocolate",
+    "ingredientes": ["banana", "chocolate", "leite condensado"],
+    "preparo": [
+      "corte a banana em rodelas",
+      "coloque a banana em uma forma",
+      "coloque o chocolate em cima da banana",
+      "coloque o leite condensado em cima do chocolate",
+      "leve ao forno por 30 minutos"
+    ],
+    "tempo_preparo": 30,
+    "rendimento": 8
+  },
+  {
+    "id": 2,
+    "titulo": "Torta de Maçã",
+    "descricao": "Torta de maçã com canela",
+    "ingredientes": [
+      "maçãs",
+      "açúcar",
+      "farinha de trigo",
+      "manteiga",
+      "canela"
+    ],
+    "preparo": [
+      "descasque e corte as maçãs em fatias finas",
+      "misture as fatias de maçã com açúcar e canela",
+      "preaqueça o forno a 180°C",
+      "em uma tigela, misture a farinha de trigo e a manteiga até formar uma farofa",
+      "forre uma forma com a massa da torta",
+      "coloque as fatias de maçã sobre a massa",
+      "cubra as maçãs com a farofa",
+      "leve ao forno por 40 minutos"
+    ],
+    "tempo_preparo": 40,
+    "rendimento": 10
+  },
+  {
+    "id": 3,
+    "titulo": "Torta de Limão",
+    "descricao": "Torta de limão com merengue",
+    "ingredientes": [
+      "leite condensado",
+      "creme de leite",
+      "limão",
+      "ovos",
+      "açúcar",
+      "amido de milho",
+      "água"
+    ],
+    "preparo": [
+      "preaqueça o forno a 180°C",
+      "misture o leite condensado com o suco de limão",
+      "em outra tigela, bata as claras em neve e adicione aos poucos o açúcar até obter um merengue",
+      "em uma panela, misture as gemas, o creme de leite, o amido de milho e a água, e leve ao fogo baixo, mexendo sempre, até engrossar",
+      "adicione a mistura de limão ao creme e misture bem",
+      "despeje o creme sobre uma massa de torta já assada",
+      "cubra o creme com o merengue",
+      "leve ao forno por mais 10 minutos, ou até dourar o merengue"
+    ],
+    "tempo_preparo": 60,
+    "rendimento": 12
+  }
+]
