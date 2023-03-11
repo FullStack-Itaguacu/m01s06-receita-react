@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Cabecalho = ({ titulo, descricao }) => {
   return (
     <div>
@@ -5,6 +7,11 @@ const Cabecalho = ({ titulo, descricao }) => {
       <p>{descricao}</p>
     </div>
   );
+};
+
+Cabecalho.propTypes = {
+  titulo: PropTypes.string.isRequired,
+  descricao: PropTypes.string.isRequired,
 };
 
 export default Cabecalho;

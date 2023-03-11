@@ -1,16 +1,19 @@
 import Cabecalho from "./Cabecalho";
-import Imagem from "./Imagem";
 import Instrucoes from "./Instrucoes";
 import Ingredientes from "./Ingredientes";
 import Rodape from "./Rodape";
 import receitas from "./receitas.json";
+import Imagem from "./Imagem";
 
 const App = () => {
   const receita = receitas[1];
   return (
     <div>
       <Cabecalho titulo={receita.titulo} descricao={receita.descricao} />
-      <Imagem src="https://github.com/mikansc.png" alt="Michael" />
+      <Imagem
+        caminho="https://www.casalcozinha.com.br/wp-content/uploads/2020/11/receita-simples-e-caseira-de-torta-de-maca-1300x932.png"
+        textoAlternativo="qualquer coisa"
+      />
       <Ingredientes ingrediente={receita.ingredientes} />
       <Instrucoes lista={receita.preparo} />
       <Rodape

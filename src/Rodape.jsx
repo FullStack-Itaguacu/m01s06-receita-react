@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function Rodape(props) {
   return (
     <div>
@@ -6,5 +8,10 @@ function Rodape(props) {
     </div>
   );
 }
+
+Rodape.propTypes = {
+  tempoDePreparo: PropTypes.number,
+  rendimento: PropTypes.number,
+};
 
 export default Rodape;

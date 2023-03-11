@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Instrucoes = (props) => {
   return (
     <div>
@@ -9,6 +11,10 @@ const Instrucoes = (props) => {
       </ol>
     </div>
   );
+};
+
+Instrucoes.propTypes = {
+  lista: PropTypes.arrayOf(PropTypes.string),
 };
 
 export default Instrucoes;
